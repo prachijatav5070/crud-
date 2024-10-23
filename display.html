@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- link style file -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dispaly.css">
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+
+</head>
+
+<body>
+    <header>
+
+        <!-- place navbar here -->
+
+        <!-- nav=1 -->
+        <div class="container" id="nav-first">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+
+                    <a class="navbar-brand" href="#"> <i class="fa-solid fa-school"></i> BANKING SEVA</a>
+
+                </div>
+            </nav>
+        </div>
+
+        <!-- nav=2 -->
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" id="nav-second">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Dashboard</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+                <!-- laptop view -->
+
+                <div class="collapse navbar-collapse" id="desktop">
+                    <ul class="navbar-nav w-100 d-flex justify-content-between">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">
+                                <i class="fa-solid fa-user fa-lg" style="color: #f5f7fa;"></i>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <!-- mobile_view -->
+
+                <div class="collapse navbar-collapse " id="navbarNav">
+                    <ul id="mobNav" class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link d-block d-md-none " aria-current="page" href="#">Accounts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link d-block d-md-none " href="#">Customer</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link d-block d-md-none " href="#">Transactions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link d-block d-md-none " href="#">Search Data</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link d-block d-md-none " href="#">Update Details</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link d-block d-md-none " href="#">Delete</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+
+    </header>
+
+
+
+    <main>
+
+        <div class="main-container">
+
+            <div class="left_side">
+   
+             
+             <ul id="left">
+              <div>
+               <i class="fa-solid fa-chalkboard-user"></i>
+               <li><a href="account.html">Accounts</a></li>
+              </div>
+               <div>
+                 <i class="fa-solid fa-children"></i>
+                 <li><a href="Coustomer.html">Coustomers</a></li>
+               </div>
+   
+               <div>
+                 <i class="fa-solid fa-user-minus"></i>
+                 <li><a href="display.html">Display Data</a></li>
+                </div>
+   
+               <div>
+                 <i class="fa-solid fa-clipboard-user"></i>
+                 <li><a href="#">Transactions</a></li>
+               </div>
+   
+               <div>
+                 <i class="fa-solid fa-magnifying-glass"></i>
+                 <li><a href="search.html">Search Data</a></li>
+               </div>
+   
+               <div>
+                 <i class="fa-solid fa-file-pen"></i>
+                 <li><a href="update.html">Update Details</a></li>
+               </div>
+             
+             
+             </ul>
+           
+   
+            </div>
+
+            <!-- ---------------------account content form --------------- -->
+
+            <div class="right_side">
+
+
+                <div class="right_up">
+
+                    <!-- displaly data  -->
+
+                    <h3> Display Data Account Detail</h1>
+                        <br><br>
+                        <button id="btndis"> Data Display</button>
+                        <p id="demo"></p>
+                </div>
+
+
+
+                <div class="right_down">
+
+                    <!-- displaly data  -->
+
+                    <h3> Display Data Coustumers Detail</h1>
+                        <br><br>
+                        <button id="btndis2"> Data Display</button>
+                        <p id="demo2"></p>
+                </div>
+            </div>
+
+
+        </div> <!-- container div end -->
+
+        </section>
+
+    </main>
+
+
+
+    <!-- Bootstrap JavaScript Libraries -->
+
+    <script src="display.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,151 @@
+{
+  "bank": {
+    "bankId": "B001",
+    "name": "Punjab National Bank",
+    "code": "PNB",
+    "branch": "Connaught Place, New Delhi",
+    "ifsc": "PUNB0000001"
+  },
+  "customers": [
+    {
+      "customerId": "C001",
+      "fullName": "Rahul Sharma",
+      "email": "rahul.sharma@example.com",
+      "phone": "9876543210",
+      "address": "123 MG Road, Delhi",
+      "id": "2d04"
+    },
+    {
+      "customerId": "C002",
+      "fullName": "Anita Desai",
+      "email": "anita.desai@example.com",
+      "phone": "9876543211",
+      "address": "456 Brigade Road, Bangalore",
+      "id": "e839"
+    },
+    {
+      "customerId": "C003",
+      "fullName": "Ravi Kumar",
+      "email": "ravi.kumar@example.com",
+      "phone": "9876543212",
+      "address": "789 Park Avenue, Mumbai",
+      "id": "5967"
+    },
+    {
+      "customerId": "C004",
+      "fullName": "Sita Gupta",
+      "email": "sita.gupta@example.com",
+      "phone": "9876543213",
+      "address": "101 Lake View, Chennai",
+      "id": "fc99"
+    },
+    {
+      "customerId": "C005",
+      "fullName": "Amit Singh",
+      "email": "amit.singh@example.com",
+      "phone": "9876543214",
+      "address": "202 Ocean Drive, Kolkata",
+      "id": "482b"
+    },
+    {
+      "id": "1636",
+      "customerId": "",
+      "fullName": "",
+      "email": "",
+      "phone": "",
+      "address": ""
+    },
+    {
+      "id": "cef5",
+      "customerId": "",
+      "fullName": "",
+      "email": "",
+      "phone": "",
+      "address": ""
+    },
+    {
+      "id": "83f9",
+      "customerId": "34312",
+      "fullName": "sanju raja",
+      "email": "sdfkasdlf;lf",
+      "phone": "452343145434",
+      "address": "bvsdv xcvz"
+    }
+  ],
+  "accounts": [
+    {
+      "id": "b54f",
+      "accountId": "A1002",
+      "customerId": "C002",
+      "accountType": "current",
+      "balance": "active",
+      "status": "1190000",
+      "creationDate": "13-01-2024"
+    },
+    {
+      "id": "fdd7",
+      "accountId": "A1001",
+      "customerId": "C001",
+      "accountType": "savings",
+      "balance": "active",
+      "status": "990000",
+      "creationDate": "13-01-2025"
+    },
+    {
+      "id": "80c6",
+      "accountId": "A1002",
+      "customerId": "C002",
+      "accountType": "savings",
+      "balance": "active",
+      "status": "990000",
+      "creationDate": "2022-05-03"
+    }
+  ],
+  "transactions": [
+    {
+      "transactionId": "T2001",
+      "accountId": "A1001",
+      "type": "Deposit",
+      "amount": 2000,
+      "date": "2023-10-01",
+      "description": "Salary credit",
+      "id": "2cbc"
+    },
+    {
+      "transactionId": "T2002",
+      "accountId": "A1002",
+      "type": "Withdrawal",
+      "amount": 500,
+      "date": "2023-10-02",
+      "description": "ATM withdrawal",
+      "id": "d3e2"
+    },
+    {
+      "transactionId": "T2003",
+      "accountId": "A1003",
+      "type": "Transfer",
+      "amount": 1000,
+      "date": "2023-10-03",
+      "description": "Transfer to savings account",
+      "id": "1fa5"
+    },
+    {
+      "transactionId": "T2004",
+      "accountId": "A1004",
+      "type": "Deposit",
+      "amount": 15000,
+      "date": "2023-10-04",
+      "description": "Fixed deposit opening",
+      "id": "cfb2"
+    },
+    {
+      "transactionId": "T2005",
+      "accountId": "A1005",
+      "type": "Withdrawal",
+      "amount": 2000,
+      "date": "2023-10-05",
+      "description": "Cash withdrawal from branch",
+      "id": "1bf5"
+    }
+  ]
+}

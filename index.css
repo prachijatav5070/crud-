@@ -1,0 +1,56 @@
+
+  .right_side {
+    width: 300px; /* Set a width for the box */
+  }
+  
+  .box {
+    background: white; /* Box color */
+    padding: 20px; /* Spacing inside the box */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Optional shadow */
+  }
+  
+  .inputbox {
+    margin-bottom: 15px; /* Spacing between input boxes */
+    position: relative;
+  }
+  
+  .inputbox input {
+    width: 100%; /* Full width input */
+    padding: 10px; /* Spacing inside input */
+    border: 1px solid #ccc; /* Border */
+    border-radius: 4px; /* Rounded corners */
+  }
+  
+  .inputbox span {
+    position: absolute;
+    left: 10px; /* Position of the span */
+    top: 10px; /* Position of the span */
+    transition: 0.2s; /* Animation for focus effect */
+  }
+  
+  .inputbox input:focus + span,
+  .inputbox input:not(:placeholder-shown) + span {
+    top: -10px; /* Move the span up */
+    left: 10px; /* Keep the span on the left */
+    font-size: 12px; /* Smaller font size */
+    color: #333; /* Color change */
+  }
+  
+  .links {
+    text-align: right; /* Align button to the right */
+  }
+  
+  button {
+    padding: 10px 15px; /* Button padding */
+    background-color: #5cb85c; /* Button color */
+    color: white; /* Text color */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+  }
+  
+  button:hover {
+    background-color: #4cae4c; /* Darker button on hover */
+  }
+  
